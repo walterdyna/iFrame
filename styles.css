@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+  }
+
+  
+  .acidente,
+  .videosMulambos,
+  .cabecaquebrada,
+  .matilde,
+  .aniversario {
+    margin: 20px auto;
+    max-width: 1200px;
+    overflow: hidden;
+  }
+  
+  .acidente h1,
+  .videosMulambos h1,
+  .cabecaquebrada h2,
+  .matilde h2,
+  .aniversario h2 {
+    color: #fff;
+  }
+  
+  .acidente > div,
+  .videosMulambos > div,
+  .cabecaquebrada > div,
+  .matilde > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .acidente > div > div,
+  .videosMulambos > div > div,
+  .cabecaquebrada > div > div,
+  .matilde > div > div {
+    width: 48%;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .aniversario > div {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+  
